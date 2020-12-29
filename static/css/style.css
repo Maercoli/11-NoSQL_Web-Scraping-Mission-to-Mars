@@ -1,0 +1,10 @@
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+}
+
+#scale_id{
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+}
