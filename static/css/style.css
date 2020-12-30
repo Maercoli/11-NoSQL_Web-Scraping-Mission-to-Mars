@@ -1,10 +1,12 @@
-.marginauto {
-    margin: 10px auto 20px;
-    display: block;
+h2{
+    font-size: 14px;
 }
 
-#scale_id{
-    width: 500px;
-    height: 500px;
-    object-fit: fill;
+#myimg{
+    position: relative;
+    float:right
+}
+
+p{
+    position: relative;
 }

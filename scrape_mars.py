@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup as bs
 from splinter import Browser
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
-import requests
 
 
 def init_browser():
@@ -71,7 +70,7 @@ def scrape():
     tables = pd.read_html(url_3, match="Equatorial Diameter")[0]
 
     # Rename table colunms
-    df = tables.rename(columns={0: " ", 1: "Mars"})
+    df = tables.rename(columns={0: " ", 1: " "})
     
     # Convert the dataframe to html string
     mars_facts_table = df.to_html(index=False, header=True, border=0)
@@ -107,7 +106,7 @@ def scrape():
         # Navigate Backwards
         browser.back()
     
-    hemisphere_image_urls
+        print(hemisphere_image_urls)
 
     ##############################
     # Store data in a dictionary #
