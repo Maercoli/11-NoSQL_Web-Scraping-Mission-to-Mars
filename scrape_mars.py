@@ -106,12 +106,12 @@ def scrape():
         # Navigate Backwards
         browser.back()
     
-        print(hemisphere_image_urls)
+    hemisphere_image_urls
 
     ##############################
     # Store data in a dictionary #
     ##############################
-
+    
     mars_data = { 
         "news_title": news_title,
         "news_paragraph": news_p,
@@ -125,3 +125,4 @@ def scrape():
 
     # Return results
     return mars_data
+    
