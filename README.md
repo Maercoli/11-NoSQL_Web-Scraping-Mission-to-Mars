@@ -83,6 +83,4 @@ Feel free to reach out to me if you have any questions.
 E-mail: maercoli@hotmail.com
 
 
-#### Copyright
 
-Trilogy Education Services © 2020. All Rights Reserved.
