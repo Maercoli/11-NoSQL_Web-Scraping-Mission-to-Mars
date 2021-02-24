@@ -43,16 +43,16 @@
  </div>
         
     <!-- Mars Facts -->
-    <div class = "container">
+    <div class = "container-fluid">
         <div class="row">
-            <div class="col-md-5" style="padding-top: 3%;">
+            <div class="col-md-5" style="padding-top: 3%; padding-bottom: 3%;">
               <div class="table table-sm">
-                <h2><strong>Mars Facts</strong></h2>
-                <p>{{ mars.mars_facts | safe }}</p>
+                <h2 style= "padding-top: 30px;padding-left: 150px;"><strong>Mars Facts</strong></h2>
+                <p style="padding-left: 150px;">{{ mars.mars_facts | safe }}</p>
               </div>
             </div>
               <div class="col-md-7" style="padding-top: 3%; padding-right: 8%">
-                <img src="../static/img/Structure-Mars-Facts.gif" alt="cover" width="620px" height="330px">
+                <img src="../static/img/Structure-Mars-Facts.gif" alt="cover" width="660px" height="330px" style="padding-top: 30px;padding-left: 60px;">
               </div>          
         </div>
     </div>
@@ -61,7 +61,7 @@
       <!-- Mars Hemispheres -->
 
           <div class="container-fluid" style="background-color: lightcyan;">
-            <div class="row" style="padding-top: 6%; padding-right: 8%; padding-left: 7%;">
+            <div class="row" style="padding-top: 4%; padding-right: 8%; padding-left: 11%; padding-bottom: 4%;">
               <h1 style="padding-bottom: 2%;" class="text-center">Hemispheres of Mars</h1>
               <br>
             {% for dict in mars.hemispheres %}
